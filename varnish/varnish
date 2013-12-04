@@ -32,7 +32,7 @@ RELOAD_VCL=1
 # content server on localhost:8080.  Use a fixed-size cache file.
 #
 DAEMON_OPTS="-a :80 \
-             -T localhost:8080 \
+             -T localhost:81 \
              -u varnish -g varnish \
              -s malloc,256m"
 
